@@ -1,0 +1,81 @@
+/* block1 */
+
+.block-1 {
+    margin: 0 auto;
+    background-color: #7d7c7c;
+    position: relative;
+    grid-area: b1;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.line {
+    position: absolute;
+    width: 6.5vw;
+    height: 100%;
+    left: 0;
+    background-color: #1b435f;
+    z-index: -1;
+}
+
+.wrap1-top {
+    display: flex;
+}
+
+.wrap1-title-block {
+    margin-right: 1vw;
+    text-align: center;
+}
+
+
+.wrap1-center {
+    display: flex;
+    align-items: center;
+    margin-top: -0.5vw;
+}
+
+.wrap1-center-text {
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 0.8vw;
+    margin-right: 2vw;
+    text-align: justify;
+    width: 15vw;
+}
+
+.wrap1-bottom {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -0.5vw;
+    position: relative;
+}
+
+.social-block1 {
+    margin-right: 4vw;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.link-company {
+    color: #ffffff;
+    font-family: "Oswald - Extra Light";
+    font-size: 1vw;
+}
+
+.polygon-block1 {
+    position: absolute;
+    z-index: -1;
+    right: -2.5vw;
+    bottom: -4.5vw;
+}
+
+.polygon-block1-img {
+    width: 17vw;
+}
+
+.date-block1 {
+    margin-bottom: 1.5vw;
+    margin-right: 1vw;
+    border-left: 0.5vh solid #ffffff;
+    padding-left: 0.5vw;
+}
