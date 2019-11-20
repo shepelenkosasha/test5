@@ -1,4 +1,124 @@
 .block-2 {
+    margin: 0 auto;
+    background-color: #7d7c7c;
+    position: relative;
     grid-area: b2;
-    background-color: red;
+    z-index: -3;
+    overflow: hidden;
+    margin-right: 1vw;
+    width: 22vw;
+    height: 22.5vw;
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0;
+    border: 11vw solid transparent;
+    border-left:11vw solid #1b435f;
+    border-bottom: 11vw solid #1b435f;
+    z-index: -2;
+}
+
+.wrap2-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.block2-title {
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.block2-title-bold {
+    font-size: 1.8vw;
+}
+
+.block2-companyLogo {
+    height: 1.5vw;
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+}
+
+.wrap2-center {
+    display: flex;
+    justify-content: center;
+}
+
+.block2-img-people {
+    height: 11vw;
+    margin-top: -1.5vw;
+    margin-right: 0;
+    margin-bottom: 1.5vw;
+}
+
+.wrap2-bottom {
+    display: flex;
+}
+
+.wrap2-bottom-dateBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.block2-shout {
+    height: 3vw;
+    margin-top: 0;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+.date-block2 {
+    display: flex;
+    margin-bottom: 0.5vw;
+}
+
+.date-block2-date,
+.date-block2-hour {
+    font-size: 1vw;
+}
+
+.date-block2-date {
+    margin-right: 1vw;
+}
+
+.date-block2-dateBold {
+    font-size: 1.1vw;
+}
+
+.tel-block2 {
+    display: flex;
+}
+
+.tel-block2-tel,
+.tel-block2-address {
+    font-size: 0.5vw;
+}
+
+.tel-block2-tel {
+    margin-right: 2.4vw;
+}
+
+
+
+
+
+
+
+
+.wrap-tr-2 {
+    /* background-color: rgb(0, 255, 76); */
+    grid-area: b3;
+    margin-right: 0;
+}
+.wrap-tr-3 {
+    /* background-color: rgb(38, 0, 255); */
+    grid-area: b4;
+    margin-right: 1vw;
+}
+.wrap-tr-4 {
+    /* background-color: rgb(255, 208, 0); */
+    grid-area: b5;
+    margin-right: 0;
 }

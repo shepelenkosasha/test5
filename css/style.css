@@ -32,11 +32,9 @@ body {
 }
 
 a,
-a:link,
 a:visited,
 a:focus,
-a:hover,
-a:active {
+a:hover {
     outline: none;
     text-decoration: none;
 }
@@ -73,13 +71,15 @@ main {
 }
 
 .wrapper {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     grid-template-areas:
         "b1 b1 b2 b3"
         "b1 b1 b4 b5";
-    grid-gap: 2vw;
+    grid-gap: 2vw; */
     /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -92,60 +92,87 @@ main {
     grid-gap: 2vw; */
 }
 
+.wrapperBlock1 {
+    margin-right: 1vw;
+    width: 45vw;
+}
+
+.wrapperBlock2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 44vw;
+}
+
+.wrapperBlock2-top,
+.wrapperBlock2-bottom {
+    display: flex;
+}
+
+.wrapperBlock2-top {
+    margin-bottom: 1vw;
+}
+
 .wrap-tr-2 {
-    background-color: rgb(0, 255, 76);
+    /* background-color: rgb(0, 255, 76); */
     grid-area: b3;
 }
 .wrap-tr-3 {
-    background-color: rgb(38, 0, 255);
+    /* background-color: rgb(38, 0, 255); */
     grid-area: b4;
 }
 .wrap-tr-4 {
-    background-color: rgb(255, 208, 0);
+    /* background-color: rgb(255, 208, 0); */
     grid-area: b5;
 }
 
 .img-hands {
-    height: 10vw;
+    height: 13vw;
     margin-right: 2vw;
 }
 
 .shout {
-    height: 4vw;
+    height: 6.5vw;
     margin-top: 2vw;
-    margin-right: 2.5vw;
+    margin-right: 3vw;
 }
 
 .title-post{
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: #fbfdfe;
     font-family: "Oswald - Extra Light";
 }
 
 .title-post-bold {
+    font-size: 3.1vw;
     color: #fbfdfe;
     font-family: "Oswald - Heavy";
 }
 
 .companyLogo {
-    height: 2.5vw;
+    height: 3vw;
 }
 
 .img-girl {
-    height: 15vw;
-    margin-right: 2vw;
+    height: 23vw;
+    margin-right: 1vw;
 }
 
 .img-people {
-    height: 10vw;
+    height: 13vw;
     margin-right: 2vw;
+}
+
+.social-block {
+    margin-right: 6vw;
+    margin-bottom: 2vw;
+    text-align: center;
 }
 
 .link-fb,
 .link-ins,
 .link-tw,
 .link-vib {
-    height: 1.5vw;
+    height: 2vw;
     margin-right: 0.5vw;
     margin-bottom: 0.5vw;
 }
@@ -154,9 +181,15 @@ main {
     margin-right: 0;
 }
 
+.link-company {
+    color: #ffffff;
+    font-family: "Oswald - Extra Light";
+    font-size: 1.1vw;
+}
+
 .date,
 .hour {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     color: #fbfdfe;
     font-family: "Oswald - Extra - Light Italic";
 }
@@ -168,16 +201,24 @@ main {
 .date-bold {
     color: #fbfdfe;
     font-family: "Oswald - Demi Bold";
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .tel,
 .address {
     color: #fbfdfe;
     font-family: "Oswald - Extra - Light Italic";
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
 
 .tel-link {
     color: #fbfdfe;
+}
+
+.poly-img {
+    position: absolute;
+    height: 13vw;
+    left: 5.2vw;
+    top: 4.7vw;
+    z-index: -1;
 }
