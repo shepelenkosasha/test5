@@ -1,0 +1,60 @@
+.block-3 {
+    background: no-repeat 50%/cover url(../img/components/bg-blue.png);
+}
+
+.wrap3-top {
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.block3-companyLogo {
+    height: 1.5vw;
+    margin-bottom: 1.8vw;
+}
+
+.block3-title {
+    font-size: 1.5vw;
+}
+
+.block3-title-bold {
+    font-size: 1.8vw;
+}
+
+.block3-poly-img {
+    height: 16.5vw;
+    top: 4.5vw;
+    left: 8.5vw;
+}
+
+.block3-img-hands {
+    position: absolute;
+    height: 14.5vw;
+    top: 5.5vw;
+    right: -2.7vw;
+}
+
+.block3-shout {
+    position: absolute;
+    height: 2.5vw;
+    top: 1vw;
+    left: 11.2vw;
+}
+
+.wrap3-bottom {
+    margin-top: 5.5vw;
+    margin-left: 1vw;
+}
+
+.date-block3-date,
+.date-block3-hour {
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+.date-block3-dateBold {
+    font-size: 1.1vw;
+}
+
+.small {
+    font-size: 0.8vw;
+}

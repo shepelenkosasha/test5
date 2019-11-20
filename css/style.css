@@ -73,23 +73,6 @@ main {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    /* display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    grid-template-areas:
-        "b1 b1 b2 b3"
-        "b1 b1 b4 b5";
-    grid-gap: 2vw; */
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "b1"
-        "b2"
-        "b3"
-        "b4"
-        "b5";
-    grid-gap: 2vw; */
 }
 
 .wrapperBlock1 {
@@ -112,17 +95,16 @@ main {
     margin-bottom: 1vw;
 }
 
-.wrap-tr-2 {
-    /* background-color: rgb(0, 255, 76); */
-    grid-area: b3;
-}
-.wrap-tr-3 {
-    /* background-color: rgb(38, 0, 255); */
-    grid-area: b4;
-}
-.wrap-tr-4 {
-    /* background-color: rgb(255, 208, 0); */
-    grid-area: b5;
+.block-small {
+    margin: 0 auto;
+    background-color: #7d7c7c;
+    position: relative;
+    grid-area: b2;
+    z-index: -3;
+    overflow: hidden;
+    margin-right: 1vw;
+    width: 22vw;
+    height: 22.5vw;
 }
 
 .img-hands {
@@ -221,4 +203,18 @@ main {
     left: 5.2vw;
     top: 4.7vw;
     z-index: -1;
+}
+
+.diagram {
+    position: absolute;
+    height: 2vw;
+    top: 11vw;
+    left: 6vw;
+}
+
+.object {
+    position: absolute;
+    height: 1.1vw;
+    top: 19vw;
+    left: 9.5vw;
 }
