@@ -131,12 +131,14 @@
 }
 
 .social-block4 {
+    height: 2.1vw;
     margin: 0;
 }
 
 .social-block4-link {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5vw;
 }
 
 .link-block4 {
@@ -166,6 +168,7 @@
 }
 
 .block4-link-company {
+    display: block;
     font-size: 0.485vw;
     color: #14314b;
 }
