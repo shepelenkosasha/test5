@@ -99,7 +99,6 @@ main {
     margin: 0 auto;
     background-color: #7d7c7c;
     position: relative;
-    grid-area: b2;
     z-index: -3;
     overflow: hidden;
     margin-right: 1vw;
@@ -142,6 +141,10 @@ main {
 .img-people {
     height: 13vw;
     margin-right: 2vw;
+}
+
+.img-man {
+    height: 10vw;
 }
 
 .social-block {
@@ -217,4 +220,13 @@ main {
     height: 1.1vw;
     top: 19vw;
     left: 9.5vw;
+}
+
+.shape {
+    position: absolute;
+    top: 0.5vw;
+    left: 1.3vw;
+    height: 10vw;
+    opacity: 0.5;
+    z-index: -1;
 }

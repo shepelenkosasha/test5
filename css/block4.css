@@ -1,0 +1,170 @@
+.block-4 {
+    background: no-repeat -1vw/56% url(../img/components/bg-block4.png), right/50% #676767;
+}
+
+.wrap4-top {
+    display: flex;
+}
+
+.block4-companyLogo {
+    height: 1.5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+
+}
+
+.block4-title-wrap {
+    position: relative;
+    background-color: #fff;
+    padding-top: 0.8vw;
+    padding-left: 0.8vw;
+    padding-right: 0.1vw;
+    padding-bottom: 0.8vw;
+}
+
+.block4-title-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 8.25vw;
+    border-style: solid;
+    border-width: 3.1vw 1vw 0 0;
+    border-color: #ffffff transparent transparent transparent;
+}
+
+.top-titleBlock4 {
+    margin-top: 2.3vw;
+    margin-left: 2.4vw;
+}
+
+.block4-title {
+    margin: 0;
+    font-size: 1vw;
+    color: #14314b;
+    font-family: "Oswald - Extra - Light Italic";
+}
+
+.block4-title-bold {
+    margin: 0;
+    font-size: 1.1vw;
+    color: #14314b;
+}
+
+.wrap4-center {
+    display: flex;
+    position: relative;
+}
+
+.block4-img-man {
+    margin-left: 1.3vw;
+}
+
+.center-titleBlock4 {
+    height: 100%;
+    padding-top: 0.5vw;
+    padding-left: 0.8vw;
+    padding-bottom: 0.5vw;
+    margin-top: 4vw;
+    margin-left: 0.85vw;
+}
+
+.center-titleBlock4::after,
+.bottom-titleBlock4::after {
+    left: 5.6vw;
+}
+
+.date-block4-date,
+.date-block4-hour {
+    font-size: 0.7vw;
+    color: #14314b;
+    margin: 0;
+}
+
+.date-block4-dateBold {
+    font-size: 0.8vw;
+    color: #14314b;
+}
+
+.wrap4-bottom {
+    display: flex;
+    position: relative;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+.wrap4-bottom-imgBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vw;
+    margin-right: 1.1vw;
+}
+
+.block4-shout,
+.block4-diagram,
+.block4-object {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.block4-shout {
+    height: 2vw;
+    margin-top: 0;
+    margin-right: 2vw;
+}
+
+.block4-diagram {
+    height: 1.5vw;
+    margin-right: 2vw;
+}
+
+.bottom-titleBlock4 {
+    height: 100%;
+    padding-top: 0.5vw;
+    padding-left: 0.8vw;
+    padding-bottom: 0.5vw;
+    margin-top: 2vw;
+}
+
+.social-block4 {
+    margin: 0;
+}
+
+.social-block4-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-block4 {
+    height: 1vw;
+    width: 1vw;
+    background: url(../img/social/sicial-blue-sprite.png) no-repeat;
+}
+
+.link-block4-fb {
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.link-block4-ins {
+    background-position: -1.35vw 0;
+    background-size: cover;
+}
+
+.link-block4-tw {
+    background-position: -2.7vw 0;
+    background-size: cover;
+}
+
+.link-block4-vib {
+    background-position: -4vw 0;
+    background-size: cover;
+}
+
+.block4-link-company {
+    font-size: 0.485vw;
+    color: #14314b;
+}

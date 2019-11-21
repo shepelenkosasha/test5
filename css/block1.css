@@ -4,7 +4,6 @@
     margin: 0 auto;
     background-color: #7d7c7c;
     position: relative;
-    grid-area: b1;
     z-index: -2;
     overflow: hidden;
 }
