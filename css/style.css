@@ -99,7 +99,6 @@ main {
     margin: 0 auto;
     background-color: #7d7c7c;
     position: relative;
-    z-index: -3;
     overflow: hidden;
     margin-right: 1vw;
     width: 22vw;
